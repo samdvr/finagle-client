@@ -5,6 +5,7 @@ Finatra HttpClient wrapper
 # Usage
 
 ```Scala
+import com.dragon._
 
 val client = HttpClient("localhost:8080")
 client.get("/hi")
