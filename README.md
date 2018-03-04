@@ -5,8 +5,10 @@
 
 ```Scala
 import com.dragon._
+import Dragon._
 
-val client = HttpClient("localhost:8080")
+val client: Service[http.Request, http.Response] = Http.newService("localhost:8080")
+
 client.get("/hi")
 // res0: com.twitter.util.Future[com.twitter.finagle.http.Response] = Promise@2116358064(state=Transforming(WaitQueue(size=0),Future@172928771(depth=2,parent=Promise@
 
