@@ -1,5 +1,4 @@
-# finatra-client
-Finatra HttpClient wrapper
+# Finagle Client Wrapper
 
 
 # Usage
